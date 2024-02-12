@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="1" parallel="false">
+    <test verbose="2" preserve-order="true" name="D:/JetBrainsGitCommitProjects/com.selenium.automationframework/GenericSeleniumFramework">
+        <classes>
+            <class name="testcases.OrangeHRMTest">
+                <methods>
+                    <include name="loginLogoutTest"/>
+                   <!-- <include name="loginLogoutTest"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
